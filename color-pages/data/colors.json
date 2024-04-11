@@ -1,0 +1,10 @@
+[
+    { "name": "White", "hex": "#FFFFFF" },
+    { "name": "Blue", "hex": "#0000FF" },
+    { "name": "Gray", "hex": "#808080" },
+    { "name": "Green", "hex": "#008000" },
+    { "name": "Black", "hex": "#000000" },
+    { "name": "Orange", "hex": "#FFA500" },
+    { "name": "Brown", "hex": "#d4a373" }
+  ]
+  
