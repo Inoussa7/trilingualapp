@@ -1,14 +1,14 @@
-// components/Header.js
 import React from 'react';
-import styles from './Header.module.css'; // Import CSS module
+import styles from './Header.module.css';
+export default Header;
 
 function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <h1>Welcome to TEAC 882B</h1>
       <h1>Database and Interactive Web Development Week 11</h1>
-      <h1>Trilingual Learning</h1>
-      <nav>
+      <h1>Trilingual Learning App</h1>
+      <nav className={styles.nav}>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/login">Login</a></li>
@@ -20,4 +20,3 @@ function Header() {
   );
 }
 
-export default Header;
