@@ -1,8 +1,6 @@
-// pages/index.js
 import React from 'react';
 import Header from '../components/Header';
-import HeaderStyles from '../components/Header.module.css'; // Corrected import statement
-
+import styles from '../Header.module.css';
 
 
 function HomePage() {
